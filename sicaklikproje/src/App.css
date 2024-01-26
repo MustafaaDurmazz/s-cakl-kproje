@@ -1,0 +1,48 @@
+.temperature-converter {
+    transform: scale(0.8);
+    text-align: center;
+    margin: 50px auto;
+    color: #3498db;
+}
+
+.conversion-button {
+    margin: 5px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #007732;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.conversion-button:hover {
+    background-color: #e74c3c;
+}
+
+.title {
+    margin: 20px auto;
+    will-change: filter;
+    transition: filter 200ms;
+}
+
+.title:hover {
+    color: #8a1306;
+    filter: drop-shadow(16px 16px 20px rgb(48, 47, 47));
+}
+
+.temperature-input {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+}
+
+.result-label {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #2ecc71;
+}
